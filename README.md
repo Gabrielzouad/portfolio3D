@@ -1,6 +1,6 @@
 # Gabriel CV / Portfolio
-[Check out my portfolio here](#https://gabrielzouad.github.io/portfolio3D/)
-https://gabrielzouad.github.io/portfolio3D/
+[Check out my portfolio here](#https://lovely-churros-6fec6f.netlify.app)
+https://lovely-churros-6fec6f.netlify.app
 
 ### who is Gabriel?
 
