@@ -1,4 +1,6 @@
 # Gabriel CV / Portfolio
+[website](#https://gabrielzouad.github.io/portfolio3D/)
+https://gabrielzouad.github.io/portfolio3D/
 ### who is Gabriel?
 
 I am a front-end developer currently living in kristiansand. I love doing projects for other customers and help with their issues. If im not working for a customer i will challenge myself to do something i dont know. This project is a living example... here i tried to challenge myself into learning three.js and use 3D models in my user experience.  
