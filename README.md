@@ -1,5 +1,6 @@
 # Gabriel CV / Portfolio
 [Check out my portfolio here](#https://gabrielzouad.github.io/portfolio3D/)
+https://gabrielzouad.github.io/portfolio3D/
 
 ### who is Gabriel?
 
