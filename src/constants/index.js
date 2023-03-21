@@ -1,29 +1,4 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets"
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, git, figma, carrent, jobit, tripguide, threejs } from "../assets"
 
 export const navLinks = [
   {
@@ -46,11 +21,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Cross-Platform Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UX/UI Designer",
     icon: backend,
   },
   {
@@ -80,10 +55,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,10 +64,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -107,10 +76,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ]
 
@@ -130,7 +95,7 @@ const experiences = [
   {
     title: "Frontend Utvikling",
     company_name: "Freelance",
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2021 - Nåværende",
     points: [
       "Finne frem til egne kunder og gjøre oppsøkende salg.",
