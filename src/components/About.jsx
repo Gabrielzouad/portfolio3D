@@ -29,8 +29,8 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         Jeg er en utvikler med en bred erfaring innen IT og logistikk, som virkelig elsker å utforske nye utfordringer. Jeg har en sterk kompetanse innen EDI, API og kommunikasjon mellom systemer, samt en solid teknisk bakgrunn i HTML, CSS, JavaScript og React. Jeg er også kjent med verktøy som Github, NextJS, ESlint og Jest, og elsker å holde meg oppdatert på nye teknologier og verktøy.
-<br />
-Men det er ikke bare teknologien som driver meg fremover. Jeg er også kjent for å være en effektiv og løsningsorientert person med gode samarbeidsevner. Jeg tar alltid ansvar for mitt arbeid, og sørger for å være strukturert og organisert i alt jeg gjør.<br />
+<br className="py-2" />
+Men det er ikke bare teknologien som driver meg fremover. Jeg er også kjent for å være en effektiv og løsningsorientert person med gode samarbeidsevner. Jeg tar alltid ansvar for mitt arbeid, og sørger for å være strukturert og organisert i alt jeg gjør.<br className="py-2" />
 
 En annen lidenskap for meg er design, og jeg elsker å bruke mine ferdigheter i designverktøy som Adobe Photoshop, Illustrator og Figma til å skape vakre og brukervennlige nettsider. Jeg tror på å skape engasjerende brukeropplevelser som gjør at folk kommer tilbake for mer.
       </motion.p>
