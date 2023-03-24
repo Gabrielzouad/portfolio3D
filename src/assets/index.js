@@ -23,7 +23,7 @@ import threejs from "./tech/threejs.svg"
 
 import egshaugenskybar from "./egshaugenskybar.png"
 import gabenismen from "./gabenismen1.png"
-import heydude from "./heydude.png"
+import heydude from "./heydude1.png"
 
 export {
   logo,
