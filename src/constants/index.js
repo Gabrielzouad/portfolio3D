@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, git, figma, carrent, jobit, tripguide, threejs } from "../assets"
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, git, figma, heydude, egshaugenskybar, gabenismen, threejs } from "../assets"
 
 export const navLinks = [
   {
@@ -139,15 +139,15 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description: "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Hey Dude Shoes",
+    description: "E-commerce nettside for en local skobutikk. Blir brukt til å legge inn bestillinger og ordre på sko. Denne nettsiden er laget med React, Next.js, Tailwind CSS og Shopify API.",
     tags: [
       {
-        name: "react",
+        name: "Shopify",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
@@ -155,15 +155,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: heydude,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Gabenismen Gaming",
+    description:
+      "En gaming nettside for en esport gruppe. Denne nettsiden blir brukt til å se kamper de skal spille og legge ut blogg innlegg. Denne nettsiden er laget med Next.js, Contentful CMS, Tailwind CSS og Gamer.no sin RestAPI.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -171,31 +172,36 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Contentful CMS",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
+    image: gabenismen,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Egshaugen Skybar og Grill",
+    description:
+      "En nettside for en restaurant. Denne resturanten ville ha mulighet til å bestille gjennom Stripe og legge inn bordbestillinger. Denne nettsiden er laget med React, Stripe og Tailwind CSS ",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Stripe",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: egshaugenskybar,
     source_code_link: "https://github.com/",
   },
 ]

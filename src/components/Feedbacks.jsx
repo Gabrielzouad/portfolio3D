@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react"
 
 const Feedbacks = () => {
-  return (
-    <div>Feedbacks</div>
-  )
+  return <div className='px-20' />
 }
 
 export default Feedbacks
