@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
 
 import egshaugenskybar from "./egshaugenskybar.png"
-import gabenismen from "./gabenismen.png"
+import gabenismen from "./gabenismen1.png"
 import heydude from "./heydude.png"
 
 export {
