@@ -1,6 +1,6 @@
 # Gabriel CV / Portfolio
-[Check out my portfolio here](#https://lovely-churros-6fec6f.netlify.app)
-https://lovely-churros-6fec6f.netlify.app
+[Check out my portfolio here](#https://gabrielzouad.no)
+https://gabrielzouad.no
 
 ### who is Gabriel?
 
