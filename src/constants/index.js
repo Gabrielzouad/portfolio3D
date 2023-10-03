@@ -1,4 +1,22 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, git, figma, heydude, egshaugenskybar, gabenismen, threejs } from "../assets"
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  tailwind,
+  nodejs,
+  git,
+  figma,
+  heydude,
+  egshaugenskybar,
+  gabenismen,
+  threejs,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -13,7 +31,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-]
+];
 
 const services = [
   {
@@ -32,7 +50,7 @@ const services = [
     title: "Content Creator",
     icon: creator,
   },
-]
+];
 
 const technologies = [
   {
@@ -77,14 +95,27 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-]
+];
 
 const experiences = [
+  {
+    title: "Junior Sommerutvikler",
+    company_name: "Eika Forsikring",
+    iconBg: "#383E56",
+    date: "juni 2023 - August 2023",
+    points: [
+      "Jobbe innen et team for å gjennomføre et sommerprosjekt for Eika Forsikring.",
+      "Utvikle så kunden skal få et bra brukersnitt og god forståelse av tjenesten de leverer.",
+      "Lære hvordan samhandle med data fra både backend og frontend.",
+      "Jobbe innenfor rammeverk som React og Angular, samt bruke backend verktøy som Kotlin og API samhandling.",
+    ],
+  
+  },
   {
     title: "Kundeservice Medarbeider",
     company_name: "Holland Norway Lines",
     iconBg: "#383E56",
-    date: "juni 2022 - Nåværende",
+    date: "juni 2022 - August 2023",
     points: [
       "Ansvarlig for innsjekk av kunder og transport.",
       "Svare på inngående telefon, mail og andre hendvendelser.",
@@ -109,38 +140,47 @@ const experiences = [
     company_name: "Narvesen CC Gjøvik og Narvesen Gjøvik skysstasjon",
     iconBg: "#383E56",
     date: "Des 2018 - Juli 2021",
-    points: ["Ansvarlig for innkjøp og inngående logistikk.", "Kassesystemer og kundeservice", "Videresalg og mersalg", "Lagerstyring og varepåfylling "],
+    points: [
+      "Ansvarlig for innkjøp og inngående logistikk.",
+      "Kassesystemer og kundeservice",
+      "Videresalg og mersalg",
+      "Lagerstyring og varepåfylling ",
+    ],
   },
-]
+];
 
 const testimonials = [
   {
-    testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-]
+];
 
 const projects = [
   {
     name: "Hey Dude Shoes",
-    description: "E-commerce nettside for en local skobutikk. Blir brukt til å legge inn bestillinger og ordre på sko. Denne nettsiden er laget med React, Next.js, Tailwind CSS og Shopify API.",
+    description:
+      "E-commerce nettside for en local skobutikk. Blir brukt til å legge inn bestillinger og ordre på sko. Denne nettsiden er laget med React, Next.js, Tailwind CSS og Shopify API.",
     tags: [
       {
         name: "Shopify",
@@ -204,6 +244,6 @@ const projects = [
     image: egshaugenskybar,
     source_code_link: "https://github.com/",
   },
-]
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
