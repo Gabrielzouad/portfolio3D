@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 3000;
 const resumeData = {
   name: 'Gabriel Zouad',
   title: 'Full Stack Developer',
+  education: 'Frontend degree at Noroff',
   contact: {
     email: 'z20gab@gmail.com',
     phone: '+47 47653911',
