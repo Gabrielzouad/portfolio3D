@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/Theme-provider';
+import { FloatingNav } from '@/components/ui/FloatingNavbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,6 +16,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const navItems = [
+    { name: 'Home', link: '/' },
+    { name: 'About', link: '/about' },
+    { name: 'Services', link: '/services' },
+    { name: 'Contact', link: '/contact' },
+  ];
   return (
     <html lang='en'>
       <ThemeProvider
@@ -23,6 +30,7 @@ export default function RootLayout({
         enableSystem
         disableTransitionOnChange
       >
+        <FloatingNav navItems={navItems} />
         <body className={inter.className}>{children}</body>
       </ThemeProvider>
     </html>

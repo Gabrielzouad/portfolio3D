@@ -1,5 +1,8 @@
 import React from 'react';
 import { Spotlight } from './ui/Spotlight';
+import { FlipWords } from './ui/FlipWords';
+import MagicButton from './buttons/MagicButton';
+import { HiOutlineMail } from 'react-icons/hi';
 
 const Hero = () => {
   return (
@@ -15,15 +18,26 @@ const Hero = () => {
         />
         <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill='blue' />
       </div>
-
-      <div className='h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.3] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0'>
-        <div className='absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]' />
+      <div className='h-screen w-full bg-black-100 bg-grid-white/[0.1] flex items-center justify-center absolute top-0 left-0'>
+        <div className='absolute pointer-events-none inset-0 flex items-center justify-center !bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]' />
       </div>
       <div className='flex justify-center relative z-10 my-20'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-          <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-            Dynamic web magic with nextjs
+          <h2 className='uppercase tracking-widest text-md text-center text-blue-200 max-w-80'>
+            La oss skape noe unikt
           </h2>
+          <h1 className='tracking-tighter font-bold text-7xl text-center text-blue-100 leading-tight '>
+            Vi hjelper å bygge dine digitale produkter med
+            <FlipWords
+              words={['utvikling', 'design', 'strategi', 'innovasjon']}
+              className='!text-purple text-center tabular-nums'
+            />
+          </h1>
+          <MagicButton
+            title='Ta kontakt'
+            icon={<HiOutlineMail />}
+            position={'right'}
+          />
         </div>
       </div>
     </div>
