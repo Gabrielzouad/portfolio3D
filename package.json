@@ -6,12 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node src/api/server.js"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.9",
+    "express": "^4.18.2",
     "framer-motion": "^10.2.3",
     "maath": "^0.5.2",
     "react": "^18.2.0",

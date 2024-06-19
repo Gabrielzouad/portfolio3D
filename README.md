@@ -1,8 +1,8 @@
 # Gabriel CV / Portfolio
-[Check out my portfolio here](#https://gabrielzouad.no)
-https://gabrielzouad.no
+[Check out my portfolio here](#https://lovely-churros-6fec6f.netlify.app)
+https://lovely-churros-6fec6f.netlify.app
 
-### who is Gabriel?
+### Who is Gabriel?
 
 I am a front-end developer currently living in kristiansand. I love doing projects for other customers and help with their issues. If im not working for a customer i will challenge myself to do something i dont know. This project is a living example... here i tried to challenge myself into learning three.js and use 3D models in my user experience.  
 
