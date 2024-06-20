@@ -26,11 +26,11 @@ const Hero = () => {
           <h2 className='uppercase tracking-widest text-md text-center text-blue-200 max-w-80'>
             La oss skape noe unikt
           </h2>
-          <h1 className='tracking-tighter font-bold text-7xl text-center text-blue-100 leading-tight '>
-            Vi hjelper å bygge dine digitale produkter med
+          <h1 className='tracking-tighter font-bold text-5xl lg:text-7xl text-center text-blue-100 leading-tight '>
+            Vi hjelper med å bygge dine digitale produkter med
             <FlipWords
               words={['utvikling', 'design', 'strategi', 'innovasjon']}
-              className='!text-purple text-center tabular-nums'
+              className='!text-purple text-center tabular-nums mb-4'
             />
           </h1>
           <MagicButton
