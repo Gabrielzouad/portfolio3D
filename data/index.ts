@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Vi er svært fleksible med kommunikasjon på tvers av tidssoner",
+      title: "Vi er alltid tilgjengelig når du trenger oss",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
