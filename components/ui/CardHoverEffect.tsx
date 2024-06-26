@@ -2,6 +2,7 @@ import { cn } from '@/lib/utils';
 import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import { useState } from 'react';
+import { FaLocationArrow } from 'react-icons/fa';
 
 export const HoverEffect = ({
   items,
@@ -134,10 +135,14 @@ export const CardImage = ({
 
 export const CardIcons = ({ icons }: { icons: string[] }) => {
   return (
-    <div className='flex items-center mt-4'>
+    <div className='flex items-center mt-7 mb-3 '>
       {icons.map((icon, index) => (
-        <div key={index} className='mr-2'>
-          <img src={icon} />
+        <div
+          key={index}
+          className='border border-white/[0.2] rounded-full bg-black w-8 h-8 lg:w-10 lg:h-10 flex items-center justify-center'
+          style={{ transform: `translateX(-${5 * index * 2}px)` }}
+        >
+          <img className='p-2' src={icon} />
         </div>
       ))}
     </div>

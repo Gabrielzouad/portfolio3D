@@ -17,10 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const navItems = [
-    { name: 'Home', link: '/' },
-    { name: 'About', link: '/about' },
-    { name: 'Services', link: '/services' },
-    { name: 'Contact', link: '/contact' },
+    { name: 'Hjem', link: '/' },
+    { name: 'Om Oss', link: '#om-oss' },
+    { name: 'Prosjekter', link: '#prosjekter' },
+    { name: 'Contact', link: '#contact' },
   ];
   return (
     <html lang='en'>
