@@ -27,9 +27,9 @@ const Hero = () => {
             La oss skape noe unikt
           </h2>
           <h1 className='tracking-tighter font-bold text-5xl lg:text-7xl text-center text-blue-100 leading-tight '>
-            Vi hjelper med å bygge dine digitale produkter med
+            Jeg hjelper med å bygge dine digitale produkter med
             <FlipWords
-              words={['utvikling', 'design', 'strategi', 'innovasjon']}
+              words={['Utvikling', 'Design', 'CRM', 'innovasjon']}
               className='!text-purple text-center tabular-nums mb-4'
             />
           </h1>

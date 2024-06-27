@@ -6,12 +6,13 @@ const Clients = () => {
   return (
     <div className='' id='prosjekter'>
       <h1 className='heading'>
-        Hva folk sier om <span className='text-purple'>Meg</span>
+        Hva mine <span className='text-purple'>kunder</span> og{' '}
+        <span className='text-purple'>kolleger</span> sier
       </h1>
       <p className='mt-4 max-w-3xl mx-auto text-center text-white/95'>
-        Les hva våre kunder og tidligere kolleger har å si om deres erfaringer
-        med oss. Vi er stolte av å levere kvalitetstjenester som skaper fornøyde
-        kunder og gode samarbeid.
+        Les hva mine kunder og tidligere kolleger har å si om sine erfaringer
+        med meg. Jeg er stolt av å kunne levere kvalitetstjenester som skaper
+        fornøyde kunder og gode samarbeid.
       </p>
       <div className='flex flex-col items-center mt-10'>
         <InfiniteMovingCards

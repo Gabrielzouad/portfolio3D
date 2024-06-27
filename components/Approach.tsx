@@ -7,7 +7,7 @@ import { CanvasRevealEffect } from './ui/CanvasRevealCard';
 const Approach = () => {
   return (
     <section className='w-full py-20'>
-      <h1 className='heading'>Hvordan jobber vi?</h1>
+      <h1 className='heading'>Hvordan jobber jeg?</h1>
       <div className='my-20 flex flex-col lg:flex-row items-center justify-center gap-4'>
         <Card
           title='Kundekonsultasjon og analyse'

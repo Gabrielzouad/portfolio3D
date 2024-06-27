@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className='py-20' id='prosjekter'>
       <h1 className='heading'>
-        Innsikt i noen av våre{' '}
+        Innsikt i noen av mine{' '}
         <span className='text-purple'>nyeste prosjekter</span>
       </h1>
       <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10'>
